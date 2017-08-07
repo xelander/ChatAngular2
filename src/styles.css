@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+#dtop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+}
+#dleft{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 20%;
+    height: 60%;
+}
+#dright{
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    width: 20%;
+    height: 60%;
+}
+#dbottom{
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    height: 20%;
+}
+#dcenter{
+    position: absolute;
+    top:20%;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+}
+

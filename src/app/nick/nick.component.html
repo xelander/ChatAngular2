@@ -1,0 +1,9 @@
+<form #myForm = "ngForm" (ngSubmit)="save(myForm.value)">
+  <label style="text-align: center; color: white">
+    Insert nickname
+  </label>
+    <input type="text" class="form-control" name="name" 
+      id="name" maxlength="10" required style="text-align: center" 
+      [ngModel]="user.name">
+    <button type="submit" class="btn btn-success">Submit</button>
+</form>
